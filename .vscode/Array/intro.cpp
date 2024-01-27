@@ -17,10 +17,19 @@ int main(){
 //     cout<<arr[i]<<" ";
 // }
 
-int arr[]={1,2,3};
-for(int i=0;i<6;i=i+1){
+// int arr[]={1,2,3};
+// for(int i=0;i<6;i=i+1){
+//     cout<<arr[i]<<" ";  // after three it will print garbage value 
+// }
+
+int arr[6]={0};
+for(int i=0;i<6;i++){
     cout<<arr[i]<<" ";
 }
+
+
+
+
 
     return 0;
 }
