@@ -22,8 +22,20 @@ int main(){
 //     cout<<arr[i]<<" ";  // after three it will print garbage value 
 // }
 
-int arr[6]={0};
+// int arr[6]={0};
+// for(int i=0;i<6;i++){
+//     cout<<arr[i]<<" ";
+// }
+
+int arr[6];
+cout<<"enter the elements of the array "<<endl;
 for(int i=0;i<6;i++){
+ cin>>arr[i];
+}
+
+cout<<"the elements of array are "<<endl;
+for(int i=0;i<6;i++){
+
     cout<<arr[i]<<" ";
 }
 
