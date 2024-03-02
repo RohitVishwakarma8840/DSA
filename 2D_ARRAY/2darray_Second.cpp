@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
 
+
+// here we have passed our col value because computer uses it 
+// base-address + ((row-index*col)+col-index)*size; thats why we pass it here 
 void printcol(int arr[][4],int row,int col){
 
 for(int i=0;i<row;i++){
