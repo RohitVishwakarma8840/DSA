@@ -37,7 +37,7 @@ cout<<"the capacity  of vector is "<<v1.capacity()<<endl;
 
 vector<int>v3={1,2,3,4,5};
 cout<<"the size of vector is "<<v3.size()<<endl;;
-cout<<"the size of capacity is "<<v3.capacity()<<endl;;
+cout<<"the size of capacity is "<<v3.capacity()<<endl;
 
 
     return 0;

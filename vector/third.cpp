@@ -27,7 +27,12 @@ sort(v.begin(),v.end());
 for(auto i:v)
 cout<<i<<" ";
 
+cout<<endl;
 
+// Binary Search in an vector using stl ;;
+cout<<binary_search(v.begin(),v.end(),55)<<endl;
+
+cout<<find(v.begin(),v.end(),55)-v.begin()<<endl;
 
     return 0;
 }
