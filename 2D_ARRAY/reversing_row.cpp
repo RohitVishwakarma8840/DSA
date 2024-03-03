@@ -15,6 +15,8 @@ cout<<endl;
 }
 
 cout<<endl;
+
+// Reversing the 2-D Array 
 for(int i=0;i<row;i++){
 
 int start=0 ; int end=col-1;
@@ -24,6 +26,7 @@ start++; end--;
 }
 }
 
+// printing the array 
 for(int i=0;i<row;i++){
 for(int j=0;j<col;j++){
 cout<<arr[i][j]<<" ";
