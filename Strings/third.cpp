@@ -26,7 +26,8 @@ cout<<"the size of the string is "<< size<<endl;
 
 
 
-string s6="namas";
+string s6="naman";
+// check for namas it will show that it is not a palindrome 
 
 int starting=0, ending=s6.size()-1;
 
