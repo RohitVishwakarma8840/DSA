@@ -32,9 +32,30 @@ cout<<endl;
 for(int i=0;i<5;i++)
 cout<<*(arr+i)<<" ";
 
+cout<<endl;
+
+// Printing all the values of the array 
+for(int i=0;i<5;i++)
+cout<<ptr[i]<<" ";
+
+cout<<endl<<endl;
+
+// print all the addresses of the array 
+for(int i=0;i<5;i++)
+cout<<(ptr+i)<<" ";
+
+cout<<endl;
 
 
+// Arithmetic Operations 
+ 
+ // To print all the values 
 
+ for(int i=0;i<5;i++){
+cout<<*ptr<<" ";
+ptr++;  // ptr++=ptr+1 in each iteration 
+
+ }
 
 
 
