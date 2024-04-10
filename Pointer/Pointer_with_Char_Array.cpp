@@ -18,6 +18,16 @@ cout<<(void*)arr<<endl;
 cout<<(void*)ptr<<endl;
 
 
+char name='a';
+char *ptr2=&name;
+cout<<&name<<endl;
+cout<<(void*)&name<<endl;
+cout<<(void*)ptr2<<endl;
+
+
+
+
+
     return 0;
 }
 
