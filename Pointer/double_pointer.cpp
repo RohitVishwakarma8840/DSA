@@ -14,6 +14,17 @@ cout<<p2<<endl;
 cout<<p3<<endl;
 
 
+// Value ko modify karna jo ki n mai rakhi hai 
+
+// *p=*p+5;
+// cout<<n<<endl;
+
+**p2=**p2+5;
+cout<<n<<endl;
+
+***p3=***p3+5;
+cout<<n<<endl;
+
     return 0;
 }
 
