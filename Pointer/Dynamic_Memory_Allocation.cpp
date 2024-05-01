@@ -27,6 +27,12 @@ int main(){
   for(int i=0;i<n;i++)
   cout<<p[i]<<" ";
 
+// using the delete keyword to free the memory that we had 
+delete ptr;
+delete ptr1;
+
+delete[] p;
+
 
     return 0;
 }
