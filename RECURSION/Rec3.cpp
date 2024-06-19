@@ -1,15 +1,17 @@
 #include<iostream>
 using namespace std;
 
-void printEven(int n ,int N){
 
-if(n==N){
-cout<<N;
-return ;
+void printEven(int N){
+
+if(N==2){
+    cout<<2<<endl;
+    return ;
 }
 
-cout<<n<<endl;
-printEven(n+2,N);
+printEven(N-2);
+cout<<N<<endl;
+
 
 
 
@@ -17,6 +19,27 @@ printEven(n+2,N);
 
 
 
+
+
+
+
+
+
+// Method 1 of printing Even no from 1 to N
+
+// void printEven(int n ,int N){
+
+// if(n==N){
+// cout<<N;
+// return ;
+// }
+
+// cout<<n<<endl;
+// printEven(n+2,N);
+
+
+
+// }
 
 
 int main(){
@@ -26,18 +49,20 @@ int N;
 cout<<"Enter the number "<<endl;
 cin>>N;
 
+// if(N%2==1)
+// N--;
+
+// printEven(2,N);
+
+
 if(N%2==1)
 N--;
 
-printEven(2,N);
+printEven(N);
+
 
     return 0;
 }
-
-
-
-
-
 
 
 

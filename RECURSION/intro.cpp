@@ -14,10 +14,10 @@ cout<<n<<" Days left for the Birthday"<<endl;
 }
 
 
-
 int main(){
 
 int n=3;
+
 // fun(n);
 
 fun(7);
