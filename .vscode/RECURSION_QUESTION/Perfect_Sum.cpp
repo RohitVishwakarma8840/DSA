@@ -11,6 +11,7 @@ return 1;
 else
 return 0;
 
+// if(index==n)
 // return sum==0;
 
 
@@ -18,8 +19,6 @@ return 0;
 }
 
 return Subset(arr, index+1,sum , n ) + Subset(arr , index+1 , sum-arr[index] , n);
-
-
 
 
 
