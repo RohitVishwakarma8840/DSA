@@ -13,7 +13,6 @@ void permute(int arr[] ,  vector<vector<int>> &ans,  vector<int> &temp , vector<
 
 
 
-
   for(int i=0; i<visited.size(); i++){
 
   if(visited[i]==0){
@@ -27,15 +26,7 @@ void permute(int arr[] ,  vector<vector<int>> &ans,  vector<int> &temp , vector<
 
 
 
-
-
-
-
   }
-
-
-
-
 
 
 }
