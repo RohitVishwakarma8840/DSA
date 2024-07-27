@@ -20,7 +20,15 @@ S1.grade="A";
 
 cout<<S1.name<<" ";
 cout<<S1.age<<" ";
-cout<<S1.grade<<" ";
+cout<<S1.grade<<endl ;
+
+Student S2;
+S2.name="Mohit";
+S2.age=20;
+
+cout<<S2.name<<endl;
+cout<<S2.age<<endl;
+
 
 
 
