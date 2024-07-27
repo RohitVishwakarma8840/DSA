@@ -10,7 +10,11 @@ using namespace std;
 class a{
  
  char c;
+ char a;
  int b;
+
+ // we should be follwing the greedy alignment for space optimization 
+ 
 
  // the answer is 8 byte not 5 byte 
  // because it has the concept of padding in it . 
