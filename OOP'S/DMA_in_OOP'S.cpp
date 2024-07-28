@@ -17,7 +17,7 @@ Student *S= new Student;
 (*S).name="Rohit";
 (*S).age=10;
 (*S).roll_no=121;
-(*S).grade="A+";
+ S->grade="A+";
 
 
 cout<<S->name<<" ";
