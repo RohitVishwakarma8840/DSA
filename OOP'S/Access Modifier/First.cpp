@@ -11,12 +11,15 @@ int b;
 public:
 int c;
 
-void fun(){
-    a=10;
-    b=20;
-    c=30;
-    cout<<"The function is called "<<endl;
-}
+// if we replace that function in private 
+// then also it will work 
+
+// void fun(){
+//     a=10;
+//     b=20;
+//     c=30;
+//     cout<<"The function is called "<<endl;
+// }
 
 
 };
