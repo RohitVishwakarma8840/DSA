@@ -1,15 +1,16 @@
 #include<iostream>
 using namespace std;
 
-// static members are attributes of class 
+// Accessing Static without objects 
 
 class Customer{
- string name;       // name account balance these all will be the part of object 
- int account_no , balance;  // will be used when there is an object
- static int total_customer;      // static keyword is used here // It will be a part of class 
-//  int total_customer;  // this will not work
+ string name;
+ int account_no , balance;
 
  public:
+
+  static int total_customer;      // static keyword is used here 
+
 
  Customer(string name , int account_no, int balance){
     this->name=name;
@@ -38,10 +39,10 @@ A1.display();
 A2.display();
 
 Customer A3("camila",3,3000);
-A3.display();
-A1.display();
-A2.display();
 
+Customer::total_customer=5;  // accessing the static variable without the objects here 
+
+A3.display();
 
 
     return 0;
