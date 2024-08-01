@@ -22,11 +22,11 @@ int main(){
 
  Student A;
 //  A.age=20; // it cannot be done once the class is declared public it cannot by any access modifier 
-
+// 
     return 0;
 }
 
-
+ 
 
 
 
