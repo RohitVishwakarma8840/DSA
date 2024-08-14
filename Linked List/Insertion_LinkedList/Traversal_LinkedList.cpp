@@ -28,6 +28,7 @@ int main(){
 
  int arr[]={2,3,6,8,10};
 
+// Inserting the elements on first position
 
 for(int i=0;i<5;i++)
 {
