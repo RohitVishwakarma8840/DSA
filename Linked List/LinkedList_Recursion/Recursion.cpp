@@ -20,11 +20,10 @@ Node* CreateLinkedList(int arr[],int index , int size){
     if(index==size)
     return NULL;
 
-   Node *temp;
-   temp=new Node(arr[index]);
-   temp->next=CreateLinkedList(arr,index+1,size);
+   Node *temp;                                           // it's an address that is going to be returned 
+   temp=new Node(arr[index]);                            // creating a node by function call 
+   temp->next=CreateLinkedList(arr,index+1,size);        // when it returns sotre it 
    return temp;
-
 
 
 }
