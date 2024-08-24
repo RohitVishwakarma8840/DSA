@@ -12,6 +12,7 @@ class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
         ListNode *temp=head;
+        // Count total no of nodes in the linked list 
         int count=0;
         while(temp!=NULL){
             temp=temp->next;
@@ -19,6 +20,7 @@ public:
         }
 
    count/=2;
+   // The no of steps to take from start is given by count/=2 ; here 
 
       temp=head;
       while(count--){
