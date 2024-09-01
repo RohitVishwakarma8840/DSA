@@ -42,6 +42,47 @@ int main(){
 
   // Calling the Recursive function 
     head= CreateDLL(arr,0,5,NULL);
+
+    // Deleting at Start 
+
+    if(head!=NULL){
+    
+    Node *temp = head;
+    head = head->next;
+    delete temp;
+
+    if(head)
+    head->prev=NULL;
+
+    }
+
+
+    // Deleting at End 
+     if(head!=NULL){
+   
+     // if only 1 node exist 
+     if(head->next==NULL){
+      delete head;
+      head=NULL;
+     }
+     // more than 1 node exist 
+    else{
+     Node *curr=head;
+     while(curr->next){
+      curr=curr->next;
+     }
+    curr->prev->next=NULL;
+    delete curr;
+
+    }
+
+     }
+
+
+
+
+
+
  
 
   Node *trav=head;
