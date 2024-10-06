@@ -1,3 +1,13 @@
+/*Structure of the node of the binary tree
+struct Node
+{
+	int key;
+	Node* left, *right;
+};
+*/
+// Function should return the sum of all the elements
+// of the binary tree
+
 void Total(Node *root , int &sum){
     
     if(root==NULL)
