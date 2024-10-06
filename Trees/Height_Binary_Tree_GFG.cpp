@@ -1,15 +1,15 @@
-struct Node
-{
-    int data;
-    struct Node* left;
-    struct Node* right;
+// struct Node
+// {
+//     int data;
+//     struct Node* left;
+//     struct Node* right;
     
-    Node(int x){
-        data = x;
-        left = right = NULL;
-    }
-};
-*/
+//     Node(int x){
+//         data = x;
+//         left = right = NULL;
+//     }
+// };
+
 class Solution{
     public:
     //Function to find the height of a binary tree.
