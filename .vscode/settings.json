@@ -68,6 +68,7 @@
     "tuple": "cpp",
     "type_traits": "cpp",
     "string": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "vector": "cpp"
   }
 }
