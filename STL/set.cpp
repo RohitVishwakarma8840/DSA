@@ -26,5 +26,25 @@ int main(){
      
  }
 
+ cout<<endl<<endl;
+
+
+ // IN descending order 
+  set<int,greater<int>>s1;
+
+  s1.insert(10);
+ s1.insert(20);
+ s1.insert(30);
+ s1.insert(10);  // duplicate values cannot be inserted 
+ s1.insert(40);
+
+
+ for(auto it = s1.begin(); it!=s1.end(); it++){
+
+   cout<< *it<<" ";
+     
+ }
+
+
     return 0;
 }
