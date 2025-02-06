@@ -1,3 +1,5 @@
+//  Kahn’s Algorithm (BFS-based Topological Sorting)
+
 class Solution {
   public:
   
@@ -22,7 +24,7 @@ class Solution {
         // push all the elements in the stack 
         queue<int>q;
       for(int i=0; i<V;i++)
-      if(!InDeg[i])
+      if(!InDeg[i])  // pushing the InDeg = 0 in the queue (no incoming edges are onto that )
       q.push(i);
       
       while(!q.empty()){
