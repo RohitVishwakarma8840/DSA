@@ -1,7 +1,7 @@
 class  Solution {
     public:
     
-    int find(int n,vector<int>dp){
+    int find(int n,vector<int>&dp){
         
         // Base Case
         if(n<=1)
